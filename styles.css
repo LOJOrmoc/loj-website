@@ -7,9 +7,9 @@
    ROOT VARIABLES
    =========================== */
 :root {
-  --primary:       #1a56a0;
-  --primary-dark:  #0f3d7a;
-  --primary-light: #2d6bbf;
+  --primary:       #c0182d;
+  --primary-dark:  #8c1020;
+  --primary-light: #d63550;
   --accent:        #f5a623;
   --accent-dark:   #d4881a;
   --bg:            #ffffff;
@@ -17,8 +17,8 @@
   --text:          #1a1a2e;
   --text-light:    #667085;
   --border:        #e4e7ec;
-  --shadow:        0 4px 24px rgba(26, 86, 160, 0.08);
-  --shadow-lg:     0 12px 48px rgba(26, 86, 160, 0.13);
+  --shadow:        0 4px 24px rgba(192, 24, 45, 0.08);
+  --shadow-lg:     0 12px 48px rgba(192, 24, 45, 0.13);
   --nav-height:    90px;
   --radius:        14px;
   --radius-sm:     8px;
@@ -165,7 +165,7 @@ p:last-child { margin-bottom: 0; }
   background: var(--primary-dark);
   border-color: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(26, 86, 160, 0.35);
+  box-shadow: 0 8px 24px rgba(192, 24, 45, 0.35);
 }
 
 .btn-outline-primary {
@@ -177,7 +177,7 @@ p:last-child { margin-bottom: 0; }
   background: var(--primary);
   color: #fff;
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(26, 86, 160, 0.25);
+  box-shadow: 0 8px 24px rgba(192, 24, 45, 0.25);
 }
 
 /* ===========================
@@ -207,7 +207,7 @@ p:last-child { margin-bottom: 0; }
   background: rgba(255, 255, 255, 0.97);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  box-shadow: 0 2px 16px rgba(26, 86, 160, 0.08);
+  box-shadow: 0 2px 16px rgba(192, 24, 45, 0.08);
   height: var(--nav-height);
 }
 
@@ -326,7 +326,7 @@ p:last-child { margin-bottom: 0; }
   top: var(--nav-height);
   left: 0;
   right: 0;
-  box-shadow: 0 12px 32px rgba(26, 86, 160, 0.1);
+  box-shadow: 0 12px 32px rgba(192, 24, 45, 0.1);
   animation: slideDown 0.25s ease;
 }
 .mobile-nav.open { display: flex; }
@@ -374,7 +374,7 @@ p:last-child { margin-bottom: 0; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(130deg, rgba(15, 61, 122, 0.82) 0%, rgba(26, 86, 160, 0.72) 55%, rgba(30, 111, 196, 0.65) 100%);
+  background: linear-gradient(130deg, rgba(100, 10, 20, 0.82) 0%, rgba(192, 24, 45, 0.72) 55%, rgba(214, 53, 80, 0.65) 100%);
   pointer-events: none;
 }
 
@@ -530,7 +530,7 @@ p:last-child { margin-bottom: 0; }
   padding: 2rem 2.25rem;
   box-shadow: var(--shadow);
   transition: var(--transition);
-  border: 1px solid rgba(26, 86, 160, 0.06);
+  border: 1px solid rgba(192, 24, 45, 0.06);
 }
 .card:hover {
   transform: translateY(-6px);
@@ -576,14 +576,14 @@ p:last-child { margin-bottom: 0; }
    EVENT CARD
    =========================== */
 .event-card {
-  background: linear-gradient(135deg, var(--primary), #1e6fc4);
+  background: linear-gradient(135deg, var(--primary), #d63550);
   border-radius: var(--radius);
   padding: 2.5rem 3rem;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   align-items: center;
-  box-shadow: 0 8px 40px rgba(26, 86, 160, 0.25);
+  box-shadow: 0 8px 40px rgba(192, 24, 45, 0.25);
 }
 
 .event-detail {
@@ -620,8 +620,8 @@ p:last-child { margin-bottom: 0; }
    INFO BOX
    =========================== */
 .info-box {
-  background: #f0f5ff;
-  border: 1px solid #c8d9f5;
+  background: #fff0f2;
+  border: 1px solid #f5c8ce;
   border-left: 5px solid var(--accent);
   border-radius: 0 var(--radius) var(--radius) 0;
   padding: 2rem 2.5rem;
@@ -680,8 +680,8 @@ p:last-child { margin-bottom: 0; }
    LEGAL BOX
    =========================== */
 .legal-box {
-  background: #f0f5ff;
-  border: 1px solid #c8d9f5;
+  background: #fff0f2;
+  border: 1px solid #f5c8ce;
   border-radius: var(--radius);
   padding: 2rem 2.5rem;
   font-size: 0.9rem;
@@ -788,7 +788,7 @@ p:last-child { margin-bottom: 0; }
   display: flex; align-items: center; justify-content: center;
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  box-shadow: 0 6px 20px rgba(26, 86, 160, 0.2);
+  box-shadow: 0 6px 20px rgba(192, 24, 45, 0.2);
 }
 
 .pathway-card h3 {
@@ -879,7 +879,7 @@ p:last-child { margin-bottom: 0; }
   text-align: center;
   transition: var(--transition);
   border-top: 4px solid var(--accent);
-  border: 1px solid rgba(26, 86, 160, 0.06);
+  border: 1px solid rgba(192, 24, 45, 0.06);
   border-top: 4px solid var(--accent);
 }
 
@@ -921,11 +921,11 @@ p:last-child { margin-bottom: 0; }
    CONTACT PAGE
    =========================== */
 .gathering-card {
-  background: linear-gradient(135deg, var(--primary), #1e6fc4);
+  background: linear-gradient(135deg, var(--primary), #d63550);
   border-radius: var(--radius);
   padding: 2.5rem 3rem;
   margin-bottom: 0;
-  box-shadow: 0 8px 40px rgba(26, 86, 160, 0.22);
+  box-shadow: 0 8px 40px rgba(192, 24, 45, 0.22);
 }
 
 .gathering-card h3 {
@@ -1023,7 +1023,7 @@ p:last-child { margin-bottom: 0; }
   border-radius: var(--radius);
   padding: 2.75rem;
   box-shadow: var(--shadow);
-  border: 1px solid rgba(26, 86, 160, 0.06);
+  border: 1px solid rgba(192, 24, 45, 0.06);
 }
 
 .form-card h3 {
@@ -1066,7 +1066,7 @@ p:last-child { margin-bottom: 0; }
 .form-group input:focus,
 .form-group textarea:focus {
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(26, 86, 160, 0.1);
+  box-shadow: 0 0 0 3px rgba(192, 24, 45, 0.1);
 }
 
 .form-group textarea {
@@ -1123,7 +1123,7 @@ p:last-child { margin-bottom: 0; }
    FOOTER
    =========================== */
 .footer {
-  background: #0b1829;
+  background: #1a0408;
   color: rgba(255, 255, 255, 0.7);
   padding: 5rem 0 0;
 }
@@ -1301,7 +1301,7 @@ p:last-child { margin-bottom: 0; }
   padding: 2rem 2.25rem;
   box-shadow: var(--shadow);
   transition: var(--transition);
-  border: 1px solid rgba(26, 86, 160, 0.06);
+  border: 1px solid rgba(192, 24, 45, 0.06);
   display: flex;
   flex-direction: column;
 }
